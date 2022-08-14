@@ -148,7 +148,11 @@ const TodoApp = () => {
                           <EditOutlinedIcon />
                         </IconButton>
                         <IconButton
-                          sx={{ color: "red", backgroundColor: "black", ml: 1 }}
+                          sx={{
+                            color: "red",
+                            backgroundColor: "black",
+                            ml: 1,
+                          }}
                           onClick={() => deleteTodo(item.id)}
                         >
                           <DeleteForeverOutlinedIcon />
